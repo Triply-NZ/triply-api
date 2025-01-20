@@ -23,11 +23,11 @@ if (string.IsNullOrEmpty(secretName))
 
 var keyVaultClient = new SecretClient(new Uri(keyVaultUri), new DefaultAzureCredential());
 
-var apiKey = await keyVaultClient.GetSecretAsync(secretName);
-
+var secret = await keyVaultClient.GetSecretAsync(secretName);
+var apiKey = secret.Value.Value; // do more research here
 
 string schema = File.ReadAllText("schema.json");
-ChatClient client = new(model, apiKey: apiKey.ToString());
+ChatClient client = new(model, apiKey: apiKey);
 
 app.MapGet("/advisor", async (HttpRequest request) =>
 {
