@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("triply-api")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b732f6d40dac761965f5af674db25649fb129ba0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a5343a037c16c3c0a08b30dbc5b8ede8030f87bb")]
 [assembly: System.Reflection.AssemblyProductAttribute("triply-api")]
 [assembly: System.Reflection.AssemblyTitleAttribute("triply-api")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
