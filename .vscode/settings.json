@@ -1,0 +1,5 @@
+{
+  "appService.preDeployTask": "publish-release",
+  "appService.deploySubpath": "bin/Release/net9.0/publish",
+  "appService.defaultWebAppToDeploy": "undefined/subscriptions/0d330e3f-3f8a-4b53-b665-e75e0d2d2d02/resourceGroups/appsvc_windows_centralus/providers/Microsoft.Web/sites/triply-api"
+}

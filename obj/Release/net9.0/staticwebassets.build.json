@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "V2/9vHBFi1hkjysbciYYPG2Uc7h9GW2wt6Wfw607t/k=",
+  "Source": "triply-api",
+  "BasePath": "_content/triply-api",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}
